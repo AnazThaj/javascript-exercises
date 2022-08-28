@@ -7,5 +7,11 @@ const removeFromArray = function (arr, ...items) {
     return arr
 };
 
+// *Using filter method
+// const removeFromArray2 = function(...items) {
+//     const array = items[0]
+//     return array.filter(item => !items.includes(item))
+// }
+
 // Do not edit below this line
 module.exports = removeFromArray;
